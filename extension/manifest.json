@@ -1,0 +1,15 @@
+{
+  "manifest_version": 3,
+  "name": "GoCanCan",
+  "version": "1.0",
+  "permissions": [
+    "activeTab",
+    "scripting"
+  ],
+  "host_permissions": [
+    "https://citapply-citdemande.apps.cic.gc.ca/*"
+  ],
+  "action": {
+    "default_popup": "popup.html"
+  }
+}
