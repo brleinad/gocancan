@@ -1,0 +1,82 @@
+baseURL = "https://gocancan.ca"
+defaultContentLanguage = "en"
+defaultContentLanguageInSubdir = true
+
+[languages]
+  [languages.en]
+    languageName = "English"
+    weight = 1
+    title = "Immigration Helper Extension"
+  [languages.es]
+    languageName = "Español"
+    weight = 2
+    title = "Extensión de Ayuda para Inmigración"
+  [languages.fr]
+    languageName = "Français"
+    weight = 3
+    title = "Extension d'Aide à l'Immigration"
+
+[module]
+  [[module.mounts]]
+    source = "assets"
+    target = "assets"
+  [[module.mounts]]
+    source = "hugo_stats.json"
+    target = "assets/hugo_stats.json"
+
+[build]
+  writeStats = true
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
+[params]
+  description = "Simplify your Canadian immigration application process"
+
+
+
+
+
+
+
+# baseURL = "http://localhost:1313"
+# defaultContentLanguage = "en"
+# defaultContentLanguageInSubdir = true
+
+# [languages]
+#   [languages.en]
+#     languageName = "English"
+#     weight = 1
+#     title = "Immigration Helper Extension"
+#     contentDir = "content/en"
+#   [languages.es]
+#     languageName = "Español"
+#     weight = 2
+#     title = "Extensión de Ayuda para Inmigración"
+#     contentDir = "content/es"
+#   [languages.fr]
+#     languageName = "Français"
+#     weight = 3
+#     title = "Extension d'Aide à l'Immigration"
+#     contentDir = "content/fr"
+
+# [module]
+#   [[module.mounts]]
+#     source = "assets"
+#     target = "assets"
+#   [[module.mounts]]
+#     source = "hugo_stats.json"
+#     target = "assets/hugo_stats.json"
+
+# [build]
+#   writeStats = true
+
+# [markup]
+#   [markup.goldmark]
+#     [markup.goldmark.renderer]
+#       unsafe = true
+
+# [params]
+#   description = "Simplify your Canadian immigration application process"

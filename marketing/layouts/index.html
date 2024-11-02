@@ -1,0 +1,131 @@
+{{ define "main" }}
+<div class="mx-auto">
+  <!-- Hero Section -->
+  <section class="bg-gradient-to-r from-primary to-red-700 text-white py-20">
+    <div class="container mx-auto px-4">
+      <div class="max-w-3xl mx-auto text-center">
+        <h1 class="text-4xl md:text-6xl font-bold mb-6">
+          {{ i18n "heroTitle" | default "Simplify Your Canadian Immigration Process" }}
+        </h1>
+        <p class="text-xl mb-8">
+          {{ i18n "heroSubtitle" | default "Auto-fill your immigration forms with our Chrome extension" }}
+        </p>
+        <a href="#"
+          class="bg-white text-primary px-8 py-3 rounded-lg font-semibold hover:bg-gray-100 transition-colors">
+          {{ i18n "installButton" | default "Install Extension" }}
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Features Section -->
+  <section class="py-16 bg-white">
+    <div class="container mx-auto px-4">
+      <h2 class="text-3xl font-bold text-center mb-12">
+        {{ i18n "featuresTitle" | default "Key Features" }}
+      </h2>
+      <div class="grid md:grid-cols-3 gap-8">
+        <div class="text-center p-6">
+          <div class="text-primary text-4xl mb-4">📝</div>
+          <h3 class="text-xl font-semibold mb-3">
+            {{ i18n "feature1Title" | default "Auto-Fill Forms" }}
+          </h3>
+          <p class="text-gray-600">
+            {{ i18n "feature1Desc" | default "Automatically fill out immigration forms with saved information" }}
+          </p>
+        </div>
+        <div class="text-center p-6">
+          <div class="text-primary text-4xl mb-4">🔒</div>
+          <h3 class="text-xl font-semibold mb-3">
+            {{ i18n "feature2Title" | default "Secure & Private" }}
+          </h3>
+          <p class="text-gray-600">
+            {{ i18n "feature2Desc" | default "Your data stays local and encrypted on your device" }}
+          </p>
+        </div>
+        <div class="text-center p-6">
+          <div class="text-primary text-4xl mb-4">✅</div>
+          <h3 class="text-xl font-semibold mb-3">
+            {{ i18n "feature3Title" | default "Error Prevention" }}
+          </h3>
+          <p class="text-gray-600">
+            {{ i18n "feature3Desc" | default "Built-in validation to prevent common mistakes" }}
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- How It Works -->
+  <section class="bg-gray-50 py-16">
+    <div class="container mx-auto px-4">
+      <h2 class="text-3xl font-bold text-center mb-12">
+        {{ i18n "howItWorksTitle" | default "How It Works" }}
+      </h2>
+      <div class="max-w-4xl mx-auto">
+        <div class="grid md:grid-cols-2 gap-8 items-center">
+          <div>
+            <img src="/api/placeholder/600/400" alt="Demo" class="rounded-lg shadow-lg" />
+          </div>
+          <div class="space-y-6">
+            <div class="flex items-start">
+              <span class="bg-primary text-white rounded-full w-8 h-8 flex items-center justify-center mr-4">1</span>
+              <div>
+                <h3 class="font-semibold mb-2">
+                  {{ i18n "step1Title" | default "Install the Extension" }}
+                </h3>
+                <p class="text-gray-600">
+                  {{ i18n "step1Desc" | default "Add our extension to Chrome in just one click" }}
+                </p>
+              </div>
+            </div>
+            <div class="flex items-start">
+              <span class="bg-primary text-white rounded-full w-8 h-8 flex items-center justify-center mr-4">2</span>
+              <div>
+                <h3 class="font-semibold mb-2">
+                  {{ i18n "step2Title" | default "Enter Your Information" }}
+                </h3>
+                <p class="text-gray-600">
+                  {{ i18n "step2Desc" | default "Save your details securely in the extension" }}
+                </p>
+              </div>
+            </div>
+            <div class="flex items-start">
+              <span class="bg-primary text-white rounded-full w-8 h-8 flex items-center justify-center mr-4">3</span>
+              <div>
+                <h3 class="font-semibold mb-2">
+                  {{ i18n "step3Title" | default "Auto-Fill Forms" }}
+                </h3>
+                <p class="text-gray-600">
+                  {{ i18n "step3Desc" | default "Click to automatically fill out immigration forms" }}
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA Section -->
+  <section class="bg-primary text-white py-16">
+    <div class="container mx-auto px-4 text-center">
+      <h2 class="text-3xl font-bold mb-6">
+        {{ i18n "ctaTitle" | default "Ready to Simplify Your Immigration Process?" }}
+      </h2>
+      <p class="text-xl mb-8 max-w-2xl mx-auto">
+        {{ i18n "ctaDesc" | default "Join thousands of users who have made their Canadian immigration journey easier" }}
+      </p>
+      <a href="#"
+        class="bg-white text-primary px-8 py-3 rounded-lg font-semibold hover:bg-gray-100 transition-colors inline-flex items-center">
+        <span>{{ i18n "installNowButton" | default "Install Now" }}</span>
+        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 ml-2" viewBox="0 0 20 20" fill="currentColor">
+          <path fill-rule="evenodd"
+            d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z"
+            clip-rule="evenodd" />
+        </svg>
+      </a>
+    </div>
+  </section>
+</div>
+{{ end }}

@@ -1,0 +1,42 @@
+- id: heroTitle
+  translation: "Simplifique su Proceso de Inmigración Canadiense"
+- id: heroSubtitle
+  translation: "Complete automáticamente sus formularios de inmigración con nuestra extensión de Chrome"
+- id: installButton
+  translation: "Instalar Extensión"
+- id: featuresTitle
+  translation: "Características Principales"
+- id: feature1Title
+  translation: "Autocompletado de Formularios"
+- id: feature1Desc
+  translation: "Complete automáticamente los formularios de inmigración con información guardada"
+- id: feature2Title
+  translation: "Seguro y Privado"
+- id: feature2Desc
+  translation: "Sus datos permanecen locales y encriptados en su dispositivo"
+- id: feature3Title
+  translation: "Prevención de Errores"
+- id: feature3Desc
+  translation: "Validación incorporada para prevenir errores comunes"
+- id: howItWorksTitle
+  translation: "Cómo Funciona"
+- id: step1Title
+  translation: "Instale la Extensión"
+- id: step1Desc
+  translation: "Agregue nuestra extensión a Chrome con un solo clic"
+- id: step2Title
+  translation: "Ingrese su Información"
+- id: step2Desc
+  translation: "Guarde sus datos de forma segura en la extensión"
+- id: step3Title
+  translation: "Complete Formularios"
+- id: step3Desc
+  translation: "Haga clic para completar automáticamente los formularios de inmigración"
+- id: ctaTitle
+  translation: "¿Listo para Simplificar su Proceso de Inmigración?"
+- id: ctaDesc
+  translation: "Únase a miles de usuarios que han facilitado su proceso de inmigración a Canadá"
+- id: installNowButton
+  translation: "Instalar Ahora"
+
+

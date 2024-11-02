@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="{{ .Site.Language.Lang }}">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{{ block "title" . }}{{ .Site.Title }}{{ end }}</title>
+  <meta name="description" content="{{ .Site.Params.description }}">
+  <link rel="stylesheet" href="/css/style.css">
+</head>
+
+<body class="min-h-screen bg-gray-50">
+  <header class="bg-white shadow-sm">
+    <nav class="container mx-auto px-4 py-4">
+      <div class="flex justify-between items-center">
+        <a href="{{ .Site.Home.RelPermalink }}" class="text-xl font-bold text-primary">
+          {{ .Site.Title }}
+        </a>
+        <div class="space-x-4">
+          {{ range .Site.Languages }}
+          <a href="{{ . | relLangURL }}" class="text-gray-600 hover:text-primary">
+            {{ .LanguageName }}
+          </a>
+          {{ end }}
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    {{ block "main" . }}{{ end }}
+  </main>
+
+  <footer class="bg-gray-900 text-white py-8">
+    <div class="container mx-auto px-4">
+      <p class="text-center">&copy; {{ now.Year }} {{ .Site.Title }}</p>
+    </div>
+  </footer>
+</body>
+
+</html>

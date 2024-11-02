@@ -1,0 +1,41 @@
+- id: heroTitle
+  translation: "Simplify Your Canadian Immigration Process"
+- id: heroSubtitle
+  translation: "Auto-fill your immigration forms with our Chrome extension"
+- id: installButton
+  translation: "Install Extension"
+- id: featuresTitle
+  translation: "Key Features"
+- id: feature1Title
+  translation: "Auto-Fill Forms"
+- id: feature1Desc
+  translation: "Automatically fill out immigration forms with saved information"
+- id: feature2Title
+  translation: "Secure & Private"
+- id: feature2Desc
+  translation: "Your data stays local and encrypted on your device"
+- id: feature3Title
+  translation: "Error Prevention"
+- id: feature3Desc
+  translation: "Built-in validation to prevent common mistakes"
+- id: howItWorksTitle
+  translation: "How It Works"
+- id: step1Title
+  translation: "Install the Extension"
+- id: step1Desc
+  translation: "Add our extension to Chrome in just one click"
+- id: step2Title
+  translation: "Enter Your Information"
+- id: step2Desc
+  translation: "Save your details securely in the extension"
+- id: step3Title
+  translation: "Auto-Fill Forms"
+- id: step3Desc
+  translation: "Click to automatically fill out immigration forms"
+- id: ctaTitle
+  translation: "Ready to Simplify Your Immigration Process?"
+- id: ctaDesc
+  translation: "Join thousands of users who have made their Canadian immigration journey easier"
+- id: installNowButton
+  translation: "Install Now"
+
